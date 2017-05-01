@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 
 	audio2 = new Audio('audio/track2.mp3');
-	audio2.volume = 0.45;
+	audio2.volume = 0.5;
 	audio2.addEventListener('ended', function() {
 		this.currentTime = 0;
 		this.play();
