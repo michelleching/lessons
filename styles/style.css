@@ -1,0 +1,30 @@
+body {
+	background-color: white;
+	font-family: 'Baskerville', 'Times New Roman', 'serif';
+	font-size: 12pt;
+	margin: 0px;
+	padding: 0px;
+}
+
+#poemes {
+	position: absolute;
+	left: 7%;
+	top: 77%;
+}
+
+#pics img {
+	position: relative;
+	top: 100px;
+}
+
+#aube {
+	left: 450px;
+	width: 20%;
+	top: 100px;
+}
+
+#route {
+	width: 18%;
+	padding: 20px;
+	left: 480px;
+}
