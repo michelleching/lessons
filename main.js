@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	audio1 = new Audio('audio/track1.m4a');
+	audio1 = new Audio('audio/track1.mp3');
 	audio1.volume = 1;
 	audio1.addEventListener('ended', function() {
 		this.currentTime = 0;
@@ -7,7 +7,7 @@ $(document).ready(function() {
 	}, false);
 
 	audio2 = new Audio('audio/track2.m4a');
-	audio2.volume = 0.1;
+	audio2.volume = 0.4;
 	audio2.addEventListener('ended', function() {
 		this.currentTime = 0;
 		this.play();
