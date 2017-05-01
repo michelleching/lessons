@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	audio1 = new Audio('audio/track1.mp3');
-	audio1.volume = 0.2;
+	audio1.volume = 0.1;
 	audio1.addEventListener('ended', function() {
 		this.currentTime = 0;
 		this.play();
