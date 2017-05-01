@@ -6,7 +6,7 @@ $(document).ready(function() {
 		this.play();
 	}, false);
 
-	audio2 = new Audio('audio/track2.m4a');
+	audio2 = new Audio('audio/track2.mp3');
 	audio2.volume = 0.45;
 	audio2.addEventListener('ended', function() {
 		this.currentTime = 0;
