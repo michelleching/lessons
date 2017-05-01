@@ -13,25 +13,33 @@ html, body, #pics {
 
 #poemes {
 	position: absolute;
-	left: 7%;
-	top: 50%;
+	left: 8%;
+	top: 40%;
 }
 
 #pics img {
 	display: inline-block;
 	position: relative;
 	top: 15%;
+	top: 20%;
 }
 
 #aube {
-	left: 500px;
-	height: 70%;
+	left: 700px;
+	left: 750px;
+	/*left: 650px;*/
+	/*height: 70%;*/
+	height: 60%;
 	/*top: 100px;*/
 }
 
 #route {
 	/*top: 20%;*/
-	height: 65%;
+	/*height: 65%;*/
+	height: 55%;
 	margin: 20px;
-	left: 530px;
+	left: 780px;
+	left: 820px;
+	padding: 0 100px 0 0;
+	filter: brightness(120%);
 }
